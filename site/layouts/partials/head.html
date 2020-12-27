@@ -1,7 +1,7 @@
 <head>
 
-  <title>{{ .Title }} | {{ $.Site.Title }}</title>
-
+  <!--<title>{{ .Title }} | {{ $.Site.Title }}</title>  !-->
+  <title>{{ .Title }}  </title>
   {{ $stylesheet := .Site.Data.webpack.main }}
   {{ with $stylesheet.css }}
     <link href="{{ relURL . }}" rel="stylesheet">
@@ -24,7 +24,7 @@
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="business.business">
-	<meta property="og:title" content="Kaldi | Great coffee with a conscience">
+	<meta property="og:title" content="Patience In Home Care">
 	<meta property="og:url" content="/">
 	<meta property="og:image" content="/img/og-image.jpg">
 
