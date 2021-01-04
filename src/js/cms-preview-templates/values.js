@@ -12,7 +12,7 @@ const MediaBlock = ({heading, text, imageUrl, reverse}) => {
       <img src={imageUrl} alt="" className="db mb2" />
     </div>
     <div className="ph3-m w-50-m">
-      <h3 className="f3 b lh-title mb1">{heading}</h3>
+      <h3 className="pl2 pr2 f3 b lh-title mb1">{heading}</h3>
       <p>{text}</p>
     </div>
   </div>;
